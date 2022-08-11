@@ -1,5 +1,6 @@
 .display__message {
     width: 100%;
+    display: none;
 }
 
 .message__encripter {
@@ -20,4 +21,5 @@
     font-size: 16px;
     line-height: 19px;
     color: #0A3871;
+    cursor: pointer;
 }
