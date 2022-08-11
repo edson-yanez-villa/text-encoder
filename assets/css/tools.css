@@ -1,0 +1,88 @@
+.ecriptador__tools{
+    width: 100%;
+}
+
+.tools__input {
+    width: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background: #E5E5E5;
+    border: none;
+}
+
+.tools__input::placeholder {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+  }
+
+.tools__info {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;
+    margin-bottom: 16px;
+}
+
+.tools__buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons__encrypt {
+    width: 343px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.buttons__decrypt {
+    width: 343px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    margin-bottom: 64px;
+}
+
+@media screen and (min-width: 0px) {
+}
+
+@media screen and (min-width: 768px) {
+    .tools__buttons {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .buttons__encrypt{
+        width: 332px;
+    }
+
+    .buttons__decrypt{
+        width: 332px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .contacto {
+        width: 556px;
+    }
+}
