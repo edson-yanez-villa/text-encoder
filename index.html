@@ -17,16 +17,16 @@
     <body>
         <main>
             <section class="encriptador container">
-                <div class="ecriptador__box">
-                    <div class="ecriptador__image">
+                <div class="encriptador__box">
+                    <div class="encriptador__image">
                         <img class="encriptador__logo"src="assets/img/logo.png" alt="Logo del emcriptador">
                     </div>
-                    <div class="ecriptador__tools">
-                        <textarea name="area" class="tools__input" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+                    <div class="encriptador__tools">
+                        <textarea name="area" class="tools__input" cols="30" rows="10" placeholder="Ingrese el texto aqui" input-encrypter></textarea>
                         <p class="tools__info"><img src="assets/img/info.png"/> Solo letras minúsculas y sin acentos</p>
                         <div class="tools__buttons">
-                            <button class="buttons__encrypt">Encriptar</button>
-                            <button class="buttons__decrypt">Desencriptar</button>
+                            <button class="buttons__encrypt" button-encrypt>Encriptar</button>
+                            <button class="buttons__decrypt" button-decrypt>Desencriptar</button>
                         </div>
                         
                     </div>
@@ -50,5 +50,6 @@
                 </section>
             </footer>
         </main>
+        <script src="script.js"></script>
     </body>
 </html>
