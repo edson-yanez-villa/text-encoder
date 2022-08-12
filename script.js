@@ -10,8 +10,11 @@ const dataToEnpcrypt = {
 
 const encrypt = () => {
     const inputEncrypt = document.querySelector("[input-encrypter]");
-    message = inputEncrypt.value;
-    
+    let message = inputEncrypt.value;
+    Object.keys(dataToEnpcrypt).forEach( key => {
+        message = message.replace(key, dataToEnpcrypt[key])
+    });
+    console.log(message);
 }
 
 button_encrypt.addEventListener("click", encrypt);
