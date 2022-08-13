@@ -1,6 +1,9 @@
 .display__message {
     width: 100%;
-    display: none;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .message__encripter {
@@ -9,6 +12,7 @@
     font-size: 24px;
     line-height: 150%;
     color: #495057;
+    overflow-y:auto;
 }
 
 .message__copy {
@@ -22,4 +26,9 @@
     line-height: 19px;
     color: #0A3871;
     cursor: pointer;
+}
+
+.message__copy:active{
+    box-shadow: 0px 4px 8px rgba(darken(dodgerblue, 30%));
+    transform: scale(.98);
 }

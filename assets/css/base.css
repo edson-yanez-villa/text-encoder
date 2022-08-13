@@ -5,3 +5,11 @@ body {
 .footer {
     text-align: center;
 }
+
+.hide__element {
+    display: none;
+}
+
+.show__element {
+    display: block;
+}
